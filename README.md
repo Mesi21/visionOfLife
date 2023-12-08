@@ -22,9 +22,9 @@
 - [📝 License](#license)
 
 
-# 📖 Just Say It App - with Rails <a name="about-project"></a>
+# 📖 Vision Of Life - with Rails <a name="about-project"></a>
 
-** Just Say It App is a classic example of a blog. It shows the list of posts and empower readers to interact with them by adding comments and liking posts
+** The Vision of Life is a classic example of a blog. It lists all the posts and creates the possibility for the readers to interact with them by adding comments and liking posts
 
 ## 🛠 Built With <a name="built-with"></a>
 
