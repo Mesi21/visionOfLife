@@ -18,7 +18,7 @@ RSpec.describe 'Posts', type: :request do
     before(:each) do
       @user = User.new(name: 'Mesi', posts_counter: 0)
       @post = Post.new(title: 'My Rails Journey', text: 'Description', comments_counter: 2, likes_counter: 5,
-                        user_id: 1)
+                      user_id: 1)
       @user.save
       @post.save
     end
