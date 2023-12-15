@@ -1,9 +1,11 @@
 class PostsController < ApplicationController
   def index
-    user_id = params[:user_id]
-    @user = User.find(user_id)
-    @posts = @user.posts.order(created_at: :desc)
+    @user = User.find(params[:user_id])
+    @posts = @user.most_recent_three_posts
   end
 
-  def show; end
+  def show
+    @post = Post.find(params[:post_id])
+    @user = @post.user
+  end
 end

@@ -18,12 +18,23 @@ nav h1 {
     min-height: 200px; 
 }
 
+.card-title a {
+    text-decoration: none;
+    color: #393646;
+}
+
+.card-title a:hover {
+    font-weight: bold;
+    color: #6D5D6E;
+}
+
 .card-body {
     background-color: #F4EEE0!;
     color: #393646;
     justify-content: center;
 }
 
-.card-body h2 {
-    font-size: 40px;
+#user-photo {
+    width: 100px;
+    height: 100px;
 }
