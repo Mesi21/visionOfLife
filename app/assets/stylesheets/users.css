@@ -4,10 +4,26 @@ body {
 
 .navbar {
     background-color: #6D5D6E!;
-    color: #fff;
+    color: #F4EEE0;
+    height: 10rem;
 }
 
-.mid {
-    width: 50%;
+nav h1 {
     margin: 0 auto;
+}
+
+.card {
+    margin: 0 auto;
+    width: 50%;
+    min-height: 200px; 
+}
+
+.card-body {
+    background-color: #F4EEE0!;
+    color: #393646;
+    justify-content: center;
+}
+
+.card-body h2 {
+    font-size: 40px;
 }
