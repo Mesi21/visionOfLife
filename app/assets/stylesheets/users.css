@@ -52,3 +52,28 @@ nav h1 {
     background-color: #393646;
     color: #fff;
 }
+
+#navigate {
+    justify-content: space-around;
+}
+
+#all-posts {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.btn-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 30px;
+}
+
+#lks-posts {
+    justify-content: space-between;
+}
+
+.statistics {
+    justify-content: space-around;
+}
