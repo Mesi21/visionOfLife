@@ -1,0 +1,13 @@
+body {
+    background-color: #393646;
+}
+
+.navbar {
+    background-color: #6D5D6E!;
+    color: #fff;
+}
+
+.mid {
+    width: 50%;
+    margin: 0 auto;
+}
