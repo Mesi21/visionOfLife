@@ -1,79 +1,79 @@
 body {
-    background-color: #393646;
+  background-color: #393646;
 }
 
 .navbar {
-    background-color: #6D5D6E!;
-    color: #F4EEE0;
-    height: 10rem;
+  background-color: #6d5d6e;
+  color: #f4eee0;
+  height: 10rem;
 }
 
 nav h1 {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .card {
-    margin: 0 auto;
-    width: 50%;
-    min-height: 200px; 
+  margin: 0 auto;
+  width: 50%;
+  min-height: 200px;
 }
 
 .card-title a {
-    text-decoration: none;
-    color: #393646;
+  text-decoration: none;
+  color: #393646;
 }
 
 .card-title a:hover {
-    font-weight: bold;
-    color: #6D5D6E;
+  font-weight: bold;
+  color: #6d5d6e;
 }
 
 .card-body {
-    background-color: #F4EEE0!;
-    color: #393646;
-    justify-content: center;
+  background-color: #f4eee0;
+  color: #393646;
+  justify-content: center;
 }
 
 #user-photo {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 #lks {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 #lks p {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .btn {
-    border: 2px solid #393646;
-    background-color: #393646;
-    color: #fff;
+  border: 2px solid #393646;
+  background-color: #393646;
+  color: #fff;
 }
 
 #navigate {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 #all-posts {
-    list-style-type: none;
-    padding: 5px;
+  list-style-type: none;
+  padding: 5px;
 }
 
 .btn-view {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 130px;
-    height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 30px;
 }
 
 #lks-posts {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .statistics {
-    justify-content: space-around;
+  justify-content: space-around;
 }
