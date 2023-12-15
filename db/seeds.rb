@@ -9,7 +9,7 @@
 require 'faker'
 
 10.times do
-  User.create!(name: Faker::Name.name, photo: 'https://picsum.photos/70', bio: Faker::Lorem.paragraph(sentence_count: 5), posts_counter: 0)
+  User.create!(name: Faker::Name.name, photo: 'https://picsum.photos/200', bio: Faker::Lorem.paragraph(sentence_count: 5), posts_counter: 0)
 end
 
 30.times do

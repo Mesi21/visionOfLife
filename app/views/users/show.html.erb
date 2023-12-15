@@ -1,25 +1,31 @@
 <div class="card" style="width: 30rem;">
   <div class="user-details container fluid d-flex flex-row border-bottom">
     <img src='<%= @user.photo %>' class="card-img-top" id="user-photo" alt="walk">
-    <div class="card-body">
-      <h5 class="card-title"><%= @user.name %></h5>
+    <div class="card-body d-flex flex-column">
+      <h3 class="card-title"><%= @user.name %></h3>
       <p class="card-text text-end"><small class="text-body-secondary">Number of posts: <%= @user.posts_counter %></small></p>
     </div>
   </div>
   <div class="card-body">
-    <%= @user.bio %>
+    <h5><strong>Bio</strong>:</h5>
+    <p><%= @user.bio %></p>
   </div>
+
   <ul class="list-group list-group-flush">
-    <% @user.most_recent_three_posts.each do |p| %>
-      <li class="list-group-item"><%= p.title %></li>
+    <% i=1 %>
+    <% @user.most_recent_three_posts.each do |p| %>     
+      <li class="list-group-item">
+        <h5>Post <%= i %>: <strong><%= p.title %></strong></h5>
+      </li>
+      <% i += 1 %>
       <li class="list-group-item"><%= p.text.truncate(90) %></li>
-      <li class="list-group-item d-flex flex-row">
-        <p class="mr-2">Comments: <%= p.comments_counter %></p>
+      <li class="list-group-item d-flex flex-row" id="lks">
+        <p>Comments: <%= p.comments_counter %></p>
         <p>Likes: <%= p.likes_counter %></p>
       </li>
     <% end %>
   </ul>
-  <div class="card-body">
-    <button>See all posts</button>
+  <div class="card-body d-flex flex-row">
+    <%= link_to 'View more posts', user_posts_path(@user), class: 'btn btn-lg' %>
   </div>
 </div>

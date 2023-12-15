@@ -35,6 +35,20 @@ nav h1 {
 }
 
 #user-photo {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+#lks {
+    justify-content: flex-end;
+}
+
+#lks p {
+    margin-right: 10px;
+}
+
+.btn {
+    border: 2px solid #393646;
+    background-color: #393646;
+    color: #fff;
 }
