@@ -10,7 +10,7 @@
       <li class="list-group-item"><%= @post.text %></li>
       <li>
         <p><strong>Comments:</strong></p>
-        <% @post.most_recent_five_comments.each do |c| %>
+        <% @post.comments.each do |c| %>
           <p><strong><%= c.user.name %></strong>: <%= c.text %></p>
         <% end %>
       </li>

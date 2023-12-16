@@ -39,9 +39,10 @@ nav h1 {
   height: 200px;
 }
 
+/*
 #lks {
   justify-content: flex-end;
-}
+} */
 
 #lks p {
   margin-right: 10px;
@@ -53,7 +54,9 @@ nav h1 {
   color: #fff;
 }
 
-#navigate {
+#lks,
+#navigate,
+.statistics {
   justify-content: space-around;
 }
 
@@ -72,8 +75,4 @@ nav h1 {
 
 #lks-posts {
   justify-content: space-between;
-}
-
-.statistics {
-  justify-content: space-around;
 }
