@@ -8,9 +8,6 @@
   </div>
 
   <ul class="list-group list-group-flush" id="all-posts">
-    <button class="button d-flex justify-content-center">
-      <%= link_to "Create new post", new_user_post_path(@user) %>
-    </button>
     <% @user.posts.each do |p| %>     
       <li class="list-group-item">
         <h5>Post: <strong><%= p.title %></strong></h5>
