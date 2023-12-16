@@ -10,6 +10,12 @@
     <%= javascript_importmap_tags %>
   </head>
   <body>
+    <% if notice %>
+        <p class="alert alert-success text-center msg"><%= notice %></p>
+      <% end %>
+    <% if alert %>
+      <p class="alert alert-danger"><%= alert %></p>
+    <% end %>
     <nav class="navbar navbar-expand-lg navbar-fluid mb-3" style="background-color: #6D5D6E;">
       <h1>Welcome to my Vision of Life</h1>
     </nav>

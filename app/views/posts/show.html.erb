@@ -16,6 +16,9 @@
       </li>
   </ul>
   <div class="card-body d-flex flex-row" id="navigate">
+    <%= render partial: "likes/create" %>
     <%= link_to 'Back', users_path(@user), class: 'btn btn-lg btn-danger' %>
   </div>
+  
+  <%= render partial: 'comments/create' %>
 </div>
